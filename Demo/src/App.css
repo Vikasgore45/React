@@ -1,4 +1,11 @@
 #h{
     text-align: center;
-    color: blue;
+    color: darkblue;
+}
+.a{
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
 }
