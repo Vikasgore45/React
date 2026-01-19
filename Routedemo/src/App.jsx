@@ -4,6 +4,7 @@ import Home from "./Home";
 import NavScroll from "./NavScroll";
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import Service from "./Service";
+import API from "./API";
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
          <Route path="/service" element={<Service />} />
        <Route path="/contact" element={<Contact />} />
+       <Route path="/api" element={<API />} />
       </Routes>
     </Router>
 
